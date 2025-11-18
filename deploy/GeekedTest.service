@@ -1,0 +1,19 @@
+[Unit]
+# 项目名称
+Description=FastAPI Application Service
+After=network.target
+
+[Service]
+User=root
+# 项目路径
+WorkingDirectory=/root/GeekedTest
+# 项目启动命令
+ExecStart=/root/GeekedTest/.venv/bin/uvicorn app:app --host 127.0.0.1 --port 8080
+# 崩溃后自动重启
+Restart=always
+# 重启间隔（秒）
+RestartSec=5 
+
+[Install]
+# 多用户模式下启动
+WantedBy=multi-user.target

@@ -106,3 +106,15 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 This package is **unofficial** and not affiliated with **WUHAN JIYI NETWORK TECHNOLOGY CO., LTD**. Use it responsibly
 and in accordance with their terms of service.
+
+
+## 启动过程
+
+https://gitee.com/gunhe/vuepress_demo/blob/master/docs/linux/112.systemd%E4%B8%8B%E6%B0%B8%E4%B9%85%E8%BF%90%E8%A1%8Cfastapi%E9%A1%B9%E7%9B%AE.md
+
+
+
+## 极验后台
+
+https://console.geetest.com/sensbot/overview/module
+
