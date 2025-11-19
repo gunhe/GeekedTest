@@ -58,6 +58,8 @@ class GtParams(BaseModel):
         default="slide", title="验证码的类别,icon,sign,slide三种类别", max_length=128
     )
     proxy: str = Field(default="", title="请求的代理", max_length=128)
+    referer: str = Field(default="", title="referer", max_length=128)
+    user_agent: str = Field(default="", title="user_agent", max_length=128)
 
 
 #  caa87cc3faeac1b7fd942fbbe6ef6ca0 f15827325743@163.com
@@ -84,3 +86,10 @@ async def GeetestV4Verify(item: GtParams):
         geetest_result["error_info"] = str(e)
         geetest_result["status"] = 0
     return {"geetest_result": geetest_result}
+
+
+# https://decodecaptcha.com/system/onlinetest/?lang=zh
+
+# https://github.com/pysunday/sdenv
+
+# https://ip.zhengbingdong.com/
