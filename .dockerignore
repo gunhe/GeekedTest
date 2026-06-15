@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+.tox/
+.mypy_cache/
+*.log
+
+# 虚拟环境和本地依赖
+lib/
+lib64/
+include/
+local/
+share/
+*.egg-info/
+*.egg
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+*.dockerfile
+
+# 编辑器/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 项目特定缓存/数据
+*.db
+*.sqlite3
+staticfiles/
+mediafiles/
+uploads/
+downloads/
+
+# 敏感信息
+.env
+.secrets
+*.pem
+*.key
+*.crt
+
+# 依赖包源码（如果使用本地离线包）
+offline_packages/
+*.whl
+*.tar.gz
+
+# 日志文件
+*.log
+logs/
